@@ -10,7 +10,8 @@ Este es el link del [repositorio](https://github.com/albabernal03/critica_pelicu
 En este proyecto se nos ofrecen una serie de datos dobre crítica de películas, donde 5 se valora como la máxima nota y 0 como la mas baja. A partir de una serie de datos ofrecidos en la tarea debemos llevar a cabo el calculo de algunas operaciones estadísticas.
 ***
 
-<h2>Código</h2>
+##Código
+
 ```
 from math import * #Este módulo proporciona acceso a las funciones matemáticas
 import pandas as pd # Libreria para trabajar con dataframes (tablas)
@@ -119,7 +120,4 @@ class Calculo:
         amplitud = limite_superior - limite_inferior
         percentil_97 = (limite_inferior + (intervalo-frecuencia_absoluta_acumulada_anterior/ frecuencia_relativa_intervalo))*amplitud
         print(f"\n El percentil 97 es {percentil_97} \n ")
-
-
 ```
-***
