@@ -10,7 +10,7 @@ Este es el link del [repositorio](https://github.com/albabernal03/critica_pelicu
 En este proyecto se nos ofrecen una serie de datos dobre crítica de películas, donde 5 se valora como la máxima nota y 0 como la mas baja. A partir de una serie de datos ofrecidos en la tarea debemos llevar a cabo el calculo de algunas operaciones estadísticas.
 ***
 
-##Código
+## Código
 
 ```
 from math import * #Este módulo proporciona acceso a las funciones matemáticas
